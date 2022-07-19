@@ -8,13 +8,7 @@ import Avatar from "@mui/material/Avatar";
 function Posts(userData) {
   const [posts, setPosts] = useState(null);
   const [open, setOpen] = useState(null);
-  const handleClickOpen = (id) => {
-    setOpen(id);
-  };
-
-  const handleClose = () => {
-    setOpen(null);
-  };
+  
 
   useEffect(() => {
     let parr = [];

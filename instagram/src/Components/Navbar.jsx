@@ -50,7 +50,7 @@ export default function Navbar({userData}) {
       history.push('/login')
   }
   const handleexplore = () => {
-      let win =window.open('https://www.pepcoding.com','_blank');
+      let win =window.open('https://github.com/Mohit-106/Instagram-Clone');
       win.focus();
   }
   const menuId = 'primary-search-account-menu';
