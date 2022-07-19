@@ -1,0 +1,50 @@
+.Login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login-card {
+    width: 26vw;
+  }
+  .Login-card-mockup{
+    width: 30vw;
+    margin-right: 10rem;
+    margin-top: 0;
+  }
+  
+  .mockup-img {
+    height: 550px;
+    width:500px;
+    padding-top: 2rem;
+    padding-left: 0;
+  }
+  img {
+    height: 3rem;
+  }
+  .insta-img {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+  }
+  .alert {
+    height: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .text2 {
+    color: grey;
+    margin: 2rem;
+  }
+  .crd2 {
+    margin-top: 0.6rem;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    .signUp-card {
+      width: 60%;
+    }
+    .insta-img {
+      width: 35%;
+    }
+  }
+  
