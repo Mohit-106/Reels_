@@ -43,7 +43,10 @@ function Profile() {
   return (
     <>
       {posts == null || userData == null ? (
+        <>
+        <Typography style={{marginTop:"5rem",marginLeft:"28rem"}}  variant="h6">Upload atleast 1 video to see your profile</Typography>
         <CircularProgress style={{marginTop:"15rem",marginLeft:"40rem"}}/>
+        </>
       ) : (
         <>
         <Navbar userData={userData}/>
